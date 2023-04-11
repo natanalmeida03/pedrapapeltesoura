@@ -50,7 +50,7 @@ function clicou(){
         msg.innerText = 'PEDRA EMPATA COM PEDRA. NINGUÉM GANHOU PONTO';
         pla_compu.style.color = 'white';
         pla_joga.style.color = 'white';
-    }else if(opc_jogador == 0 && opc_comp == 1){
+    }else if(opc_jogador == 0 && opc_comp == 2){
         msg.innerText = 'PEDRA GANHA DE TESOURA. PONTO PARA VOCÊ';
         ++pla_jog;
         pla_joga.innerText = pla_jog;
